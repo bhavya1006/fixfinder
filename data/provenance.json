@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/streamlit/streamlit",
+  "assembled_at_utc": "2026-10-07T20:43:34.118669+00:00",
+  "count": 100,
+  "source": "GitHub public REST API; cached responses are reused on rerun",
+  "selection": "100 most recently updated eligible closed type:bug reports matched against 2,000 recently updated closed PRs",
+  "quality_rules": [
+    "Merged PR with explicit closing reference",
+    "At least 350 characters and 55 whitespace-separated words",
+    "Remove HTML comments and template checkboxes",
+    "Exclude duplicate labels and not_planned closures",
+    "Unique issue IDs and normalized descriptions; reject description similarity >= 0.92"
+  ],
+  "resolution": "Factual merged PR title, with full cleaned PR description retained; no inferred root cause",
+  "limitations": "Single-repository convenience sample, not an exhaustive duplicate detector. Upstream issue and PR text may change."
+}
